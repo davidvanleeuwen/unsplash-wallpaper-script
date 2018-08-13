@@ -12,10 +12,16 @@ This is a extremly simple script that downloads an unsplash image and sets it as
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidvanleeuwen/unsplash-wallpaper-script/master/install.sh)"
 ```
 
-## Install dependencies
+## Dependencies
 
+Don't have nodejs and/or yarn?
 ```console
 brew install yarn
+```
+
+Don't have brew?
+```console
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## FAQ
