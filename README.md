@@ -26,16 +26,23 @@ Don't have brew?
 
 ## FAQ
 
-### How to change the frequency
+### How to change the frequency?
 1. Open your terminal
 2. Enter: `env EDITOR=nano crontab -e`
 3. Change `*/15` (= every 15 minutes) to what you want ([more info](https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html))
 4. `ctrl+x`, `y`, `enter`
 
-### How to change unsplash theme/search
+### How to change unsplash theme/search?
 1. Open `~/Wallpapers/set_wallpaper.sh`
 2. Change nature to whatever you want (it can be comma seperated, eg: `unsplash-wallpaper -q unicorn,rainbow`)
 3. Save the file and you're done
+
+### How to remove this script?
+1. To begin, this is a bit more cumbersome. Sorry 😟
+2. Use `env EDITOR=nano crontab -e` and delete the line points to `set_wallpaper.sh`.
+3. `ctrl+x`, `y`, `enter`
+4. `rm -rf ~/Wallpapers` (note: make sure you don't use this folder for anything else, everything inside will be deleted!)
+5. That's it.
 
 ### Other questions?
 Let me know on [Twitter](https://twitter.com/davidvanleeuwen)!
