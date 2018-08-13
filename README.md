@@ -12,6 +12,12 @@ This is a extremly simple script that downloads an unsplash image and sets it as
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidvanleeuwen/unsplash-wallpaper-script/master/install.sh)"
 ```
 
+## Install dependencies
+
+```console
+brew install yarn
+```
+
 ## FAQ
 
 ### How to change the frequency
